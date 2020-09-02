@@ -27,6 +27,7 @@ namespace Estacionamento2
         {
             services.AddDbContext<EstacionamentoContext>();
 
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
